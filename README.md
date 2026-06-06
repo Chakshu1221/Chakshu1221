@@ -1,11 +1,11 @@
 <!-- Animated Wave Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,30&height=200&section=header&text=Chandra%20Prakash&fontSize=50&fontAlignY=35&desc=Manual%20%2B%20Automation%20QA%20Developer%20%7C%20Flutter%20Dev&descSize=18&descAlignY=55&animation=twinkling&fontColor=FFFFFF" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,30&height=200&section=header&text=Chakshu%20Joshi&fontSize=50&fontAlignY=35&desc=Manual%20%2B%20Automation%20QA%20Developer%20%7C%20Flutter%20Dev&descSize=18&descAlignY=55&animation=twinkling&fontColor=FFFFFF" alt="Header" />
 </p>
 
 <!-- Animated Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chandra+Prakash!;Manual+%2B+Automation+QA+Developer+%7C+4%2B+Years;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chakshu+Joshi!;Manual+%2B+Automation+QA+Developer+%7C+4%2B+Years;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <!-- Profile Views & Badges -->
@@ -21,7 +21,7 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-Name: Chandra Prakash
+Name: Chakshu Joshi
 Role: Manual + Automation QA Developer | Flutter Developer
 Organization: ChakshuSoft
 Location: Gurugram, Haryana, India 🇮🇳
