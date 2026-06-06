@@ -1,28 +1,33 @@
-<!-- Animated Header -->
+<!-- Animated Wave Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chandra+Prakash!;Full-Stack+Developer+%7C+Flutter+%7C+QA+Automation;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,30&height=200&section=header&text=Chandra%20Prakash&fontSize=50&fontAlignY=35&desc=Manual%20%2B%20Automation%20QA%20Developer%20%7C%20Flutter%20Dev&descSize=18&descAlignY=55&animation=twinkling&fontColor=FFFFFF" alt="Header" />
 </p>
 
-<!-- Profile Views Badge -->
+<!-- Animated Typing SVG -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chandra+Prakash!;Manual+%2B+Automation+QA+Developer+%7C+4%2B+Years;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
+</p>
+
+<!-- Profile Views & Badges -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Chakshu1221&label=Profile%20Views&color=6C5CE7&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/Chakshu1221?label=Followers&style=for-the-badge&color=6C5CE7" alt="Followers" />
   <img src="https://img.shields.io/github/stars/Chakshu1221?label=Stars&style=for-the-badge&color=FFD700" alt="Stars" />
 </p>
 
-<!-- Wave Divider -->
+<!-- Divider -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🧑‍💻 About Me
 
 ```yaml
 Name: Chandra Prakash
-Role: Analyst Tester | Full-Stack Developer
+Role: Manual + Automation QA Developer | Flutter Developer
 Organization: ChakshuSoft
-Location: Gurugram, Haryana, India
-Experience: 2+ years in IT (Automation & Manual Testing)
-Passion: Building real-world apps & automating everything 🤖
-Currently Building: Friendly Help 🤝 | Pahadi Tokri 🏔️
+Location: Gurugram, Haryana, India 🇮🇳
+Experience: 4+ years in IT (Manual & Automation Testing)
+Expertise: Selenium · Java · TestNG · Postman · Flutter · Firebase
+Passion: Breaking apps before users do & building them from scratch 🛠️
 Fun Fact: I ship apps, squash bugs, and drink chai ☕
 ```
 
@@ -63,6 +68,9 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-DC382D?style=for-the-badge&logo=testng&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-4A154B?style=for-the-badge&logo=checkmarx&logoColor=white)
+![API Testing](https://img.shields.io/badge/API_Testing-005571?style=for-the-badge&logo=swagger&logoColor=white)
+![Bug Tracking](https://img.shields.io/badge/Bug_Tracking-FF0000?style=for-the-badge&logo=bugatti&logoColor=white)
 
 #### 🔧 DevOps & Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -73,92 +81,30 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤝 Friendly Help
-> A task-exchange platform where users help each other & earn coins
-
-- 🌐 **Web + 📱 Flutter Android App**
-- 🔥 Firebase RTDB + Auth
-- ⚡ Node.js/Express on Render
-- 🖼️ Cloudinary for images
-- 🎨 Purple theme `#6C5CE7` + Gold `#FFD700`
-- 🌙 Full Dark Mode support
-- 🏅 User tiers: Bronze → Silver → Gold
-- 🛡️ Admin panel with audit logs
-- 📋 Disputes, reports & auto-approve system
-
-[![Repo](https://img.shields.io/badge/GitHub-Friendly_Help-6C5CE7?style=for-the-badge&logo=github)](https://github.com/ChakshuSoft/friendly-help)
-
-</td>
-<td width="50%" valign="top">
-
-### 🏔️ Pahadi Tokri
-> E-commerce app for authentic Himalayan products from Uttarakhand
-
-- 📱 **Flutter** + GetX State Management
-- 🔥 Firebase RTDB backend
-- 💳 Razorpay + Cash on Delivery
-- ⭐ Ratings, reviews & admin replies
-- 💬 Live chat with ticket system
-- 📦 Multi-pack product variants
-- 📍 Pincode verification (India Post API)
-- 🔔 13 push notification types via Render server
-- 🎨 Himalayan green `#2D6A4F` + Gold `#FFD700`
-
-[![Repo](https://img.shields.io/badge/GitHub-Pahadi_Tokri-2D6A4F?style=for-the-badge&logo=github)](https://github.com/ChakshuSoft/pahadi_tokri)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📋 Task Management System
-> Productivity app live on the Google Play Store
-
-- 📱 Migrating from **Java/Kotlin → Flutter**
-- 🎯 Android + Web targets
-- 🔐 Same package ID & JKS signing
-- 🤖 GitHub Actions CI/CD (Release APK)
-- 🔔 FCM push via Render relay server
-- 🔐 API keys via `.env`
-
-[![Play Store](https://img.shields.io/badge/Google_Play-Live-34A853?style=for-the-badge&logo=google-play&logoColor=white)](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 Pro Testers
-> Platform connecting indie devs with genuine testers for Google Play closed testing
-
-- ⚡ **Supabase** backend
-- 🚀 Deployed on **Render**
-- 🎯 Solving real Play Store testing pain points
-- 🤝 Bridging the gap between devs & testers
-
-</td>
-</tr>
-</table>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
-
 ## 💼 Professional Experience
 
 ```
-🏢 Analyst Tester | 2+ Years in IT Industry
-├── 🤖 Automation Testing (Selenium + Java)
-├── 🏗️ Building automation frameworks from scratch
-├── 🧪 TestNG annotations & Listeners expert
-├── 📡 API Testing with Postman
-├── 📊 Test case execution & reporting
-├── 🐛 Bug tracking & reporting
-├── 🔄 CI/CD & environment management
-├── 📋 Requirements analysis & stakeholder demos
-└── ⚡ Process improvement & task automation
+🏢 Manual + Automation QA Developer | 4+ Years in IT Industry
+│
+├── 🔍 Manual Testing
+│   ├── 📋 Test case design, execution & reporting
+│   ├── 📝 Analysis of User Requirements & scope determination
+│   ├── 🐛 Bug reporting, tracking & regression testing
+│   ├── 🖥️ Environment creation & maintenance for testing
+│   └── 🎯 Demonstration of requirements to stakeholders
+│
+├── 🤖 Automation Testing
+│   ├── ⚡ Selenium with Java — hands-on expertise
+│   ├── 🏗️ Building automation frameworks from scratch
+│   ├── 🧪 TestNG annotations & Listeners expert
+│   ├── 📡 API Testing with Postman (REST/SOAP)
+│   └── 🔄 CI/CD pipeline integration
+│
+└── 💡 Strengths
+    ├── ⚙️ Strong inclination to process improvements
+    ├── 🤖 Automating repetitive tasks & workflows
+    ├── 🤝 Client interaction & requirement analysis
+    └── 📊 Detailed test reporting & documentation
 ```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
@@ -191,11 +137,11 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 
 ## 🐍 Contribution Snake
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/github-snake-dark.svg" alt="Snake animation" />
-</p>
-
-> 💡 *Set up the snake animation by adding the [snk workflow](https://github.com/Platane/snk) to your profile repo's GitHub Actions.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/github-snake.svg" />
+</picture>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
