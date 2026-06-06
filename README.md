@@ -1,11 +1,11 @@
 <!-- Animated Wave Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,30&height=200&section=header&text=Chandra%20Prakash&fontSize=50&fontAlignY=35&desc=Manual%20%2B%20Automation%20QA%20Developer%20%7C%20Flutter%20Dev&descSize=18&descAlignY=55&animation=twinkling&fontColor=FFFFFF" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,30&height=200&section=header&text=Chakshu%20Joshi&fontSize=50&fontAlignY=35&desc=Manual%20%2B%20Automation%20QA%20Developer%20%7C%20Flutter%20Dev&descSize=18&descAlignY=55&animation=twinkling&fontColor=FFFFFF" alt="Header" />
 </p>
 
 <!-- Animated Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chandra+Prakash!;Manual+%2B+Automation+QA+Developer+%7C+4%2B+Years;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=4000&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Chakshu+Joshi!;Manual+%2B+Automation+QA+Developer+%7C+4%2B+Years;Building+cool+stuff+%40+ChakshuSoft+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <!-- Profile Views & Badges -->
@@ -21,7 +21,7 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-Name: Chandra Prakash
+Name: Chakshu Joshi
 Role: Manual + Automation QA Developer | Flutter Developer
 Organization: ChakshuSoft
 Location: Gurugram, Haryana, India 🇮🇳
@@ -111,16 +111,20 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 
 ## 📊 GitHub Stats
 
+<!-- ✅ Streak Stats — uses official demolab.com (always working) -->
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chakshu1221&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&icon_color=FFD700&text_color=FFFFFF" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chakshu1221&theme=tokyonight&hide_border=true&background=0D1117&ring=6C5CE7&fire=FFD700&currStreakLabel=FFD700" alt="GitHub Streak" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=Chakshu1221&theme=tokyonight&hide_border=true&background=0D1117&ring=6C5CE7&fire=FFD700&currStreakLabel=FFD700" alt="GitHub Streak" />
+  </a>
 </p>
 
+<!-- ✅ GitHub Stats & Top Languages — served from output branch via GitHub Actions (never breaks!) -->
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chakshu1221&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&text_color=FFFFFF&langs_count=10" alt="Top Languages" />
+  <img width="49%" src="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/stats.svg" alt="GitHub Stats" />
+  <img width="49%" src="https://raw.githubusercontent.com/Chakshu1221/Chakshu1221/output/top-langs.svg" alt="Top Languages" />
 </p>
 
-<!-- Activity Graph -->
+<!-- ✅ Activity Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chakshu1221&bg_color=0D1117&color=6C5CE7&line=FFD700&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
 </p>
@@ -129,8 +133,9 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 
 ## 🏆 GitHub Trophies
 
+<!-- ✅ Uses volunteer load-balanced endpoint (official repo lists these as stable alternatives) -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Chakshu1221&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15" alt="Trophies" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=Chakshu1221&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15" alt="Trophies" />
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
