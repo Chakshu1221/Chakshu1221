@@ -1,0 +1,86 @@
+# GitHub Stats Cards Generator
+# Place this file at: .github/workflows/stats.yml
+# Generates GitHub Stats + Top Languages SVGs and caches them in the output branch
+# This avoids the broken public vercel instance issue!
+
+name: Generate GitHub Stats Cards
+
+on:
+  # Runs every 6 hours to keep stats fresh
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          fetch-depth: 1
+        continue-on-error: true
+
+      - name: Create output directory
+        run: mkdir -p dist
+
+      # ==============================
+      # GitHub Stats Card
+      # ==============================
+      - name: Download GitHub Stats Card
+        run: |
+          curl -s -L --retry 5 --retry-delay 10 \
+            "https://github-readme-stats.vercel.app/api?username=Chakshu1221&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&icon_color=FFD700&text_color=FFFFFF" \
+            -o dist/stats.svg
+          # Verify the file is a valid SVG
+          if grep -q "<svg" dist/stats.svg; then
+            echo "✅ Stats SVG downloaded successfully"
+          else
+            echo "⚠️ Stats SVG download failed, trying fallback..."
+            curl -s -L --retry 3 --retry-delay 15 \
+              "https://github-readme-stats.vercel.app/api?username=Chakshu1221&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&icon_color=FFD700&text_color=FFFFFF" \
+              -o dist/stats.svg || echo "❌ Fallback also failed — keeping previous version"
+          fi
+
+      # ==============================
+      # Top Languages Card
+      # ==============================
+      - name: Download Top Languages Card
+        run: |
+          curl -s -L --retry 5 --retry-delay 10 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=Chakshu1221&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&text_color=FFFFFF&langs_count=10" \
+            -o dist/top-langs.svg
+          # Verify the file is a valid SVG
+          if grep -q "<svg" dist/top-langs.svg; then
+            echo "✅ Top Languages SVG downloaded successfully"
+          else
+            echo "⚠️ Top Languages SVG download failed, trying fallback..."
+            curl -s -L --retry 3 --retry-delay 15 \
+              "https://github-readme-stats.vercel.app/api/top-langs/?username=Chakshu1221&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C5CE7&text_color=FFFFFF&langs_count=10" \
+              -o dist/top-langs.svg || echo "❌ Fallback also failed — keeping previous version"
+          fi
+
+      # ==============================
+      # Push to output branch
+      # ==============================
+      - name: Push Stats to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          commit_message: "chore: update github stats cards"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
