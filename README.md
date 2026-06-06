@@ -153,7 +153,7 @@ Fun Fact: I ship apps, squash bugs, and drink chai ☕
 ## 📬 Let's Connect!
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/Chakshu-Joshi-85a967209/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/chandra-prakash-85a967209/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:chandujoshi386@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" /></a>
   <a href="mailto:chakshusoftwarecreation@gmail.com"><img src="https://img.shields.io/badge/ChakshuSoft_Mail-6C5CE7?style=for-the-badge&logo=gmail&logoColor=white" alt="Business Email" /></a>
   <a href="https://github.com/Chakshu1221"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
